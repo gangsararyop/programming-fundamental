@@ -68,5 +68,9 @@ for (var i = 0; i < fibonacciNumber; i++) {
     fa = fb;
     fb = tempFibonacciNumber;
 }
-totalFibonacciNumber = fa;
-console.log("Fibonacci number is ".concat(totalFibonacciNumber));
+console.log("Fibonacci number is ".concat(fa));
+function multiplier(factor, number) {
+    return number * factor;
+}
+var mul = multiplier(3);
+console.log(mul(5));
